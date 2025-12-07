@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Html</title>
+</head>
+<body>
+    <h2>Form in HTML</h2>
+    <form action="">
+        <label for="fname">first name:</label>
+   <input id="fname" type="text" minlength="5"maxlength="10" required placeholder="enter your firstname"value=""name="fname"/>
+   
+   <label for="lname"> last name</label>
+   <input id="lname"type="text"minlength="6"maxlength="12"required>
+   <br><br>
+   <label for="">Age:</label>
+    <input type="number"/>
+    <br><br>
+    <label for="">Email:</label>
+    <input type="email">
+    <br><br>
+    <label for="">Date of joining</label>
+    <input type="date">
+    <br><br>
+    <label for="">password</label>
+    <input type="password">
+    <br><br>
+    <p>enter the shirt size:</p>
+    <label for="small">small</label>
+    <input type="radio"name="shirt size"id="small"value="small"/>
+    <label for="medium">medium</label>
+    <input type="radio"name="shirt size" id="medium"value="medium"/>
+    <label for="large">large</label>
+    <input type="radio"name="shirt size" id="large"value="large"/>
+    <br><br>
+    <p>enter the known your language</p>
+    <input type="checkbox"name="lang"id="english"value="english">
+    <label for="english">English</label>
+    <input type="checkbox"name="lang"id="hindi"value="hindi">
+    <label for="hindi">Hindi</label>
+    <input type="checkbox"name="lang"id="bhojpuri"value="bhojpuri">
+    <label for="bhojpuri">Bhojpuri</label>
+    <br><br>
+    <label for="color">please select the color</label>
+    <input type="color"id="color"/>
+    <br><br>
+    <label for="paymentoption">please select the  payment </label>
+    <select  id="paymentoption">
+        <option value="gpay">gpay</option>
+        <option value="phonepay">phonepay</option>
+        <option value="upi">UPI</option>
+        <option value="cod">cod</option>
+    </select>
+    <br><br>
+    <label for="cmts">please provide your feedback</label>
+
+    <textarea id="cmts"rows="18"cols="100" placeholder="plse comts here"></textarea>
+    <br><br>
+    <input type="reset"/>
+   <a href=""></a> <input type="submit" />
+
+    </form>
+</body>
+</html>
